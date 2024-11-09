@@ -1,8 +1,3 @@
-//1.install npm init - y
-//2.check package.json add type = module
-//3.install npm i express and nodemon
-//4.add "start" = nodemon under "scripts"
-//5.run in terminal with nodemon start
 //import express using es mosdule //or common js const express = require('express')
 import express from "express";
 const app = express();
@@ -19,7 +14,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`The running port is http://localhost:${port}`);
 });
-
-export {
-  app
-}
